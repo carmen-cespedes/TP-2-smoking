@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (excluir raw si es pesado — opcional)
+# data/raw/
+
+# OS
+.DS_Store
+Thumbs.db
