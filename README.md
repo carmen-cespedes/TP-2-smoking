@@ -1,4 +1,4 @@
-# 🚬 Predicción de Fumadores — Trabajo Práctico 2 (Módulo 2)
+# Predicción de Fumadores — Trabajo Práctico 2 (Módulo 2)
 
 Modelo de clasificación binaria para predecir si una persona es fumadora (`smoking = 1`) o no (`smoking = 0`) a partir de indicadores de salud.
 
