@@ -125,19 +125,6 @@ Ejecutar los notebooks en orden numérico: `01` → `06`.
 
 ---
 
-## Resultados
-
-| Modelo | F1-Score CV (train) | F1-Score (test) |
-|--------|-------------------|----------------|
-| Logistic Regression | — | — |
-| Random Forest | — | — |
-| XGBoost Tuned | — | — |
-| **LightGBM Tuned** | **—** | **—** |
-
-> *Los valores se completan al ejecutar las notebooks.*
-
----
-
 ## Conclusiones
 
 - **LightGBM** resultó el mejor modelo, probablemente por su eficiencia en datasets de salud con relaciones no lineales.
