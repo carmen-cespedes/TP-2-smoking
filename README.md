@@ -18,25 +18,24 @@ Modelo de clasificación binaria para predecir si una persona es fumadora (`smok
 ## Estructura del Repositorio
 
 ```
-smoking_project/
+smoking/
 │
 ├── data/
-│   ├── raw/                    # Datos originales descargados
+│   ├── raw/                    
 │   │   ├── smoking_labeled.csv
 │   │   └── smoking_unlabeled.csv
-│   ├── processed/              # Datos procesados + gráficos EDA
+│   ├── processed/              
 │   │   ├── X_train.csv
 │   │   ├── X_test.csv
 │   │   ├── y_train.csv
 │   │   ├── y_test.csv
-│   │   └── smoking_predictions.csv   ← ARCHIVO DE SALIDA FINAL
-│   └── external/               # Datos externos (si aplica)
-│
+│   │   └── smoking_predictions.csv  
+│   └── external/               
 ├── models/
-│   ├── preprocessor.pkl        # Pipeline de preprocesamiento
-│   ├── feature_config.pkl      # Configuración de features
-│   ├── best_model.pkl          # Modelo final entrenado
-│   └── best_threshold.pkl      # Threshold óptimo de decisión
+│   ├── preprocessor.pkl       
+│   ├── feature_config.pkl    
+│   ├── best_model.pkl        
+│   └── best_threshold.pkl      
 │
 ├── notebooks/
 │   ├── 01_lectura_y_discovery.ipynb
@@ -44,7 +43,7 @@ smoking_project/
 │   ├── 03_preprocesamiento.ipynb
 │   ├── 04_entrenamiento_y_optimizacion.ipynb
 │   ├── 05_validacion.ipynb
-│   └── 06_prediccion.ipynb     ← Genera el archivo de predicciones
+│   └── 06_prediccion.ipynb    
 │
 ├── requirements.txt
 └── README.md
@@ -57,7 +56,7 @@ smoking_project/
 ### 1. Clonar el repositorio
 ```bash
 git clone <URL_DEL_REPO>
-cd smoking_project
+cd smoking
 ```
 
 ### 2. Crear entorno virtual (recomendado)
@@ -157,10 +156,4 @@ data/processed/smoking_predictions.csv
 ```
 Contiene todas las filas del dataset sin etiquetar con la nueva columna `smoking_prediction` (valores: `0` o `1`).
 
----
 
-## 👥 Autores
-- *Carmen Cespedes*
-
-## 📄 Licencia
-MIT
